@@ -6,10 +6,9 @@ let sumatotal = 0;
 
 function sumAll(datosASumar) {
   for (let i = 0; i < datosASumar.length; i++) {
-      sumatotal += datosASumar[i];   
-      
+    sumatotal += datosASumar[i];
   }
 }
-sumAll(numbers)
+sumAll(numbers);
 
-console.log(sumatotal) 
+console.log(sumatotal);

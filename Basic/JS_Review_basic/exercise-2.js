@@ -40,10 +40,8 @@ const users = [
 let totalVolume = 0;
 
 for (const user of users) {
-  for (let i = 0; i < user.length; index++) {
-    for (const volume in user) {
-      totalVolume += volume;
-    }
+  for (const key in user.favoritesSounds) {
+    totalVolume = user.favoritesSounds[key].volume + totalVolume;
   }
 }
 

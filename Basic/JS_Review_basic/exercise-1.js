@@ -29,20 +29,4 @@ for (const movie of movies) {
   }
 }
 
-/*for (const movie of movies) {
-  for (let e = 0; e < movie.categories.length; e++) {
-    category.push(movie.categories[e]); 
-  }  
-}
-console.log(category)
-console.log(typeof(category))
-
-for (let i = 0; i < category.length; i++) {
-    for (let e = 1; e < category.length; e++) {
-        if (category[i] === category[e]) {
-           category.splice(1,1);
-        }
-    };    
-}*/
-
 console.log(category);
